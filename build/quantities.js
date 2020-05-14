@@ -288,9 +288,9 @@ SOFTWARE.
     "<tablespoon>":  [["tb","tbsp","tbs","tablespoon","tablespoons"], 1.47867648e-5, "volume", ["<meter>","<meter>","<meter>"]],
     "<teaspoon>":  [["tsp","teaspoon","teaspoons"], 4.92892161e-6, "volume", ["<meter>","<meter>","<meter>"]],
     "<bushel>":  [["bu","bsh","bushel","bushels"], 0.035239072, "volume", ["<meter>","<meter>","<meter>"]],
-    "<oilbarrel>":  [["bbl","oil-barrel","oil-barrels"], 0.158987294928, "volume", ["<meter>","<meter>","<meter>"]],
-    "<beerbarrel>":  [["bl","bl-us","beer-barrel","beer-barrels"], 0.1173477658, "volume", ["<meter>","<meter>","<meter>"]],
-    "<beerbarrel-imp>":  [["blimp","bl-imp","beer-barrel-imp","beer-barrels-imp"], 0.16365924, "volume", ["<meter>","<meter>","<meter>"]],
+    "<oilbarrel>":  [["bbl","oilbarrel", "oilbarrels", "oil-barrel","oil-barrels"], 0.158987294928, "volume", ["<meter>","<meter>","<meter>"]],
+    "<beerbarrel>":  [["bl","bl-us","beerbarrel", "beerbarrels", "beer-barrel","beer-barrels"], 0.1173477658, "volume", ["<meter>","<meter>","<meter>"]],
+    "<beerbarrel-imp>":  [["blimp","bl-imp","beerbarrel-imp", "beerbarrels-imp", "beer-barrel-imp","beer-barrels-imp"], 0.16365924, "volume", ["<meter>","<meter>","<meter>"]],
 
     /* speed */
     "<kph>" : [["kph"], 0.277777778, "speed", ["<meter>"], ["<second>"]],
@@ -459,7 +459,9 @@ SOFTWARE.
     "<dozen>" :  [["doz","dz","dozen"],12.0,"prefix_only", ["<each>"]],
     "<percent>": [["%","percent"], 0.01, "prefix_only", ["<1>"]],
     "<ppm>" :  [["ppm"],1e-6, "prefix_only", ["<1>"]],
-    "<ppt>" :  [["ppt"],1e-9, "prefix_only", ["<1>"]],
+    "<ppb>" :  [["ppt"],1e-9, "prefix_only", ["<1>"]],
+    "<ppt>" :  [["ppt"],1e-12, "prefix_only", ["<1>"]],
+    "<ppq>" :  [["ppt"],1e-15, "prefix_only", ["<1>"]],
     "<gross>" :  [["gr","gross"],144.0, "prefix_only", ["<dozen>","<dozen>"]],
     "<decibel>"  : [["dB","decibel","decibels"], 1.0, "logarithmic", ["<decibel>"]]
   };
